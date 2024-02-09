@@ -11,8 +11,6 @@ export const Map = ({ onLoad, initialCentre, initialZoom, selection }) => {
 	const { isLoaded } = useLoadScript({ googleMapsApiKey: "AIzaSyDkvUGxiz2K7Pu1StM2Parnayc2ZJCMUyA" });
 	const { onMapLoad, onMapUnmount } = useMap();
 
-	console.log("selection", selection);
-
 	if (!isLoaded) return null;
 	return (
 		<GoogleMap
@@ -26,7 +24,7 @@ export const Map = ({ onLoad, initialCentre, initialZoom, selection }) => {
 			onUnmount={onMapUnmount}
 			options={options}
 		>
-			{selection.coordinates && (
+			{selection?.coordinates && (
 				<InfoWindow options={{ pixelOffset: new window.google.maps.Size(0, -25), maxWidth: 285 }} position={selection.coordinates}>
 					<MapCard title={selection?.title} image={selection?.image} />
 				</InfoWindow>

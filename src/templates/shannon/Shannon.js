@@ -10,7 +10,6 @@ const Shannon = () => {
 	// get data from the selected marker
 	const selectedMarkerData = React.useMemo(() => {
 		if (!selectedMarker) return {};
-		console.log("selectedMarker", selectedMarker);
 		const coordinates = selectedMarker?.geometry?.coordinates;
 		return {
 			coordinates: { lng: coordinates[0], lat: coordinates[1] },
