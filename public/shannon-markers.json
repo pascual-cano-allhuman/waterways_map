@@ -1,0 +1,59 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": "cong",
+			"geometry": { "type": "Point", "coordinates": [-8.06378, 53.99122] },
+			"properties": { "name": "Cong", "image": "https://placehold.co/360x180", "next": "allihies", "previous": "" }
+		},
+		{
+			"type": "Feature",
+			"id": "allihies",
+			"geometry": { "type": "Point", "coordinates": [-7.94095, 54.02027] },
+			"properties": { "name": "Allihies", "image": "https://placehold.co/360x180", "next": "clifden", "previous": "cong" }
+		},
+		{
+			"type": "Feature",
+			"id": "clifden",
+			"geometry": { "type": "Point", "coordinates": [-7.90633, 54.03078] },
+			"properties": { "name": "Clifden", "image": "https://placehold.co/360x180", "next": "dunmore-east", "previous": "allihies" }
+		},
+		{
+			"type": "Feature",
+			"id": "dunmore-east",
+			"geometry": { "type": "Point", "coordinates": [-7.85185, 54.04889] },
+			"properties": { "name": "Dunmore East", "image": "https://placehold.co/360x180", "next": "inistioge", "previous": "clifden" }
+		},
+		{
+			"type": "Feature",
+			"id": "inistioge",
+			"geometry": { "type": "Point", "coordinates": [-7.80748, 54.05479] },
+			"properties": { "name": "Inistioge", "image": "https://placehold.co/360x180", "next": "kilfenora", "previous": "dunmore-east" }
+		},
+		{
+			"type": "Feature",
+			"id": "kilfenora",
+			"geometry": { "type": "Point", "coordinates": [-7.79142, 54.02967] },
+			"properties": { "name": "Kilfenora", "image": "https://placehold.co/360x180", "next": "leenaun", "previous": "inistioge" }
+		},
+		{
+			"type": "Feature",
+			"id": "liscannor",
+			"geometry": { "type": "Point", "coordinates": [-7.69239, 54.05628] },
+			"properties": { "name": "Liscannor", "image": "https://placehold.co/360x180", "next": "moyard", "previous": "leenaun" }
+		},
+		{
+			"type": "Feature",
+			"id": "moyard",
+			"geometry": { "type": "Point", "coordinates": [-8.00254, 54.01138] },
+			"properties": { "name": "Moyard", "image": "https://placehold.co/360x180", "next": "roundstone", "previous": "liscannor" }
+		},
+		{
+			"type": "Feature",
+			"id": "roundstone",
+			"geometry": { "type": "Point", "coordinates": [-7.63313, 54.0618] },
+			"properties": { "name": "Roundstone", "image": "https://placehold.co/360x180", "next": "", "previous": "moyard" }
+		}
+	]
+}

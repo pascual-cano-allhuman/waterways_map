@@ -1,0 +1,44 @@
+.map-card{
+    background: #fff;
+    min-height: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.map-card img{
+    max-width: 100%;
+    height: auto;
+}
+
+.map-card h2{
+    padding: 0 1rem;
+}
+
+/* override map google map styles */
+
+.gm-style {
+    font-family: inherit;
+}
+
+.gm-style-iw {
+    padding: 0 !important;
+    max-width: 15rem!important;
+}
+
+.gm-ui-hover-effect {
+    display: none !important;
+}
+
+.gm-style-iw-tc::after,
+.gm-style-iw-t::after {
+    display: none;
+}
+
+.gm-style-iw-c {
+    box-shadow: 3px 3px 4px rgba(209, 205, 199, 0.2);
+}
+
+.gm-style-iw-d {
+    overflow: hidden !important;
+}
